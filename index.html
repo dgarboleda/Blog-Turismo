@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+ 
+    <title>Blog de Turismo Materialeze CSS</title>
+  </head>
+
+  <body class="blue-grey lighten-5">
+    <!-- Cabecera-->
+    <div class="row grey darken-3 cabecera">
+        <div class="container">
+                <div class="col s5 m2 center-align"><img src="img/logo.jpg" class="responsive-img circle" alt="Blog Turismo"></div>
+                <div class="col s7 m10">
+                      <div class="row right-align menu">
+                          <a class="waves-effect waves-purple btn-small"><span class="hide-on-med-and-down">Inicio</span><i class="material-icons right">home</i></a>
+                          <a class="waves-effect waves-purple btn-small"><span class="hide-on-med-and-down">Estuve en ...</span><i class="material-icons right">location_on</i></a>
+                          <a class="waves-effect waves-purple btn-small"><span class="hide-on-med-and-down">Mejores viajes</span><i class="material-icons right">star</i></a>
+                          <a class="waves-effect waves-purple btn-small"><span class="hide-on-med-and-down">Recomendaciones</span><i class="material-icons right">favorite</i></a>
+                      </div>
+                </div>
+        </div> 
+    </div>
+
+    <!--Contenido-->
+    <div class="container contenido">
+            <div class="row">
+                    <div class="col m12 center-align flow-text">No importa cuanto lleve, voy a un lugar maravilloso ...</div>
+            </div>
+
+            <div class="row">
+                <div class="col m1 social hide-on-small-only">
+                    <img src="img/facebook.png" alt="">
+                    <img src="img/instagram.png" alt="">
+                    <img src="img/pinterest.png" alt="">
+                    <img src="img/twitter.png" alt="">
+                    <img src="img/youtube.png" alt="">
+                </div>
+                <div class="col m4">
+                    <div class="row">
+                        <div class="col s12"><img class="responsive-img z-depth-2 materialboxed galeria" src="img/1.jpg" alt="" data-caption="Una breve descripción de la imagen"></div>
+                        <div class="col s12"><img class="responsive-img z-depth-2 materialboxed galeria" src="img/2.jpg" alt="" data-caption="Una breve descripción de la imagen"></div>
+                    </div>
+                </div>
+                <div class="col m4">
+                    <img  class="responsive-img z-depth-2 materialboxed galeria" src="img/3.jpg" alt=""  data-caption="Una breve descripción de la imagen">
+                </div>
+                <div class="col m3">
+                        <div class="row">
+                                <div class="col s12"><img class="responsive-img z-depth-2 materialboxed galeria" src="img/4.jpg" alt="" data-caption="Una breve descripción de la imagen"></div>
+                                <div class="col s12"><img class="responsive-img z-depth-2 materialboxed galeria" src="img/5.jpg" alt="" data-caption="Una breve descripción de la imagen"></div>
+                                <div class="col s12"><img class="responsive-img z-depth-2 materialboxed galeria" src="img/6.jpg" alt="" data-caption="Una breve descripción de la imagen"></div>
+                        </div>
+                </div>
+            </div>
+            
+            <!--Entrada de Blog-->
+            <div class="row">
+                <div class="col s12 m9 grey lighten-5 z-depth-2 entrada">
+
+                        <div>
+                                <h4>Machu Picchu</h4>
+                                <div class="chip">Sábado, 20 de Julio 2019
+                                        <i class="tiny material-icons">today</i>
+                                </div>
+                
+                                <div class="chip">
+                                        Lima, Perú
+                                        <i class="tiny material-icons">location_on</i>
+                                </div>        
+                        </div>
+                        <img class="responsive-img materialboxed" src="img/blog1.jpg" alt=""  data-caption="Una breve descripción de la imagen">
+
+                        <p class="flow-text">Machu Picchu es una ciudadela inca ubicada en las alturas de las montañas de los Andes en Perú, sobre el valle del río Urubamba. Se construyó en el siglo XV y luego fue abandonada, y es famosa por sus sofisticadas paredes de piedra seca que combinan enormes bloques sin el uso de un mortero, los edificios fascinantes que se relacionan con las alineaciones astronómicas y sus vistas panorámicas. El uso exacto que tuvo sigue siendo un misterio.</p>
+                        
+                        <p class="flow-text">El Santuario Histórico – Parque Arqueológico Nacional de Machupicchu (SHM-PANM) es un área cultural y natural inscrita en la Lista del Patrimonio Mundial de la UNESCO. Con una extensión de 37302 hectáreas, es una de las áreas con mayor biodiversidad del Perú y alberga más de 60 monumentos arqueológicos articulados mediante una compleja red de caminos Inka.</p>
+
+                        <form class="col s12">
+                                <div class="row">
+                                  <div class="input-field col s12">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="comments" type="text" placeholder="Deje sus comentarios aquí">
+                                    <label for="comments"></label>
+                                  </div>
+                                </div>
+                        </form>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card grey lighten-5 center-align autor">
+                            <img class="responsive-img circle" src="img/autor.jpg" alt="">
+                            <h4>Perfil del autor</h4>
+                            <div class="divider"></div>
+                            <p class="flow-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sint iure officia culpa, non repellat ipsam, natus at iste quam dolorem adipisci ea facere libero earum veniam hic accusantium!</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems);
+        });
+    </script>
+    
+  </body>
+</html>
